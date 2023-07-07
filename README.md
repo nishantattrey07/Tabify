@@ -61,3 +61,10 @@ At present, Tabify is primarily designed for use with the Chrome browser. While 
   - Something like this should appear on your screen and You are ready to use the extension
 
     ![tabify](https://github.com/nishantattrey07/repoimages/blob/main/Tabify/Setup/tabify.png)
+
+
+#
+## Give your feedback here 👇🏼
+To fill out the form, [click here](https://forms.gle/6JNtXk28YW5W1C5n8).
+### Don't forget to give us a star if you liked it
+
