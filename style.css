@@ -1,0 +1,404 @@
+/* Theme 1 */
+/* Border-> #F9F8FC
+Color 1-> #D9D4E7
+Background color-> ,#FFE3E1
+Button-> #FF9494 
+BLACK-> #0E172C*/
+
+
+/* Theme 2 */
+/* Border-> #FFFFFE
+Button-> #EEBBC3
+Color 1-> #B8C1EC
+Background Color -> #FFE3E1*/
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FFE3E1;
+    color: #000000;
+}
+
+
+/* .maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+
+.card {
+    /* display: none; */
+    width: 300px;
+    background-color: #FFE3E1;
+    border: 1px solid #F9F8FC;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+
+}
+
+.card h2, h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    color: #382128;
+}
+
+.card p {
+    font-size: 16px;
+    color: #382128;
+}
+
+.card input {
+    margin-left: 30px;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #F9F8FC;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+.card input:focus {
+    outline: none;
+    border-color: #ffffff;
+    color: #382128;
+}
+
+.card button {
+    margin-left: 35%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9494;
+    border: none;
+    color: #F9F8FC;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #FF9494;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9494;
+    color: #F9F8FC;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-list label {
+    flex-grow: 1;
+}
+
+.add-todo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.add-todo input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-todo button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: white;
+    color: #FF9494;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-todo button:hover {
+    background-color: #FF9494;
+    color: white;
+}
+
+#newTodo {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #382128;
+    font-size: 16px;
+}
+
+#newTodo:focus {
+    outline: none;
+    border-color: #FF9494;
+}
+
+.container {
+    max-width: 400px;
+    max-height: 400px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFD1D1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: slide-in 0.5s ease-in-out;
+}
+
+/* For Webkit-based browsers (e.g., Chrome, Safari) */
+/* You can adjust the colors and other properties as desired */
+
+.container::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: white;
+    /* Track color */
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #FF9494;
+    /* Thumb color */
+    border-radius: 5px;
+    /* Border radius of the thumb */
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background-color: #e77e7e;
+    /* Thumb color on hover */
+}
+
+/* For Firefox */
+/* You can adjust the colors and other properties as desired */
+
+.container {
+    scrollbar-width: thin;
+    /* Width of the scrollbar */
+    scrollbar-color: #FF9494 #F9F8FC;
+    /* Thumb and track colors */
+}
+
+.container::-moz-scrollbar-track {
+    background-color: #F9F8FC;
+    /* Track color */
+}
+
+.container::-moz-scrollbar-thumb {
+    background-color: #FF9494;
+    /* Thumb color */
+    border-radius: 5px;
+    /* Border radius of the thumb */
+}
+
+.container::-moz-scrollbar-thumb:hover {
+    background-color: #FF9494;
+    /* Thumb color on hover */
+}
+
+
+
+.fav-Website::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.fav-Website::-webkit-scrollbar-track {
+    background-color: white;
+    /* Track color */
+}
+
+.fav-Website::-webkit-scrollbar-thumb {
+    background-color: #FF9494;
+    /* Thumb color */
+    border-radius: 5px;
+    /* Border radius of the thumb */
+}
+
+.fav-Website::-webkit-scrollbar-thumb:hover {
+    background-color: #e77e7e;
+    /* Thumb color on hover */
+}
+
+/* For Firefox */
+/* You can adjust the colors and other properties as desired */
+
+.fav-Website {
+    scrollbar-width: thin;
+    /* Width of the scrollbar */
+    scrollbar-color: #FF9494 #F9F8FC;
+    /* Thumb and track colors */
+}
+
+.fav-Website::-moz-scrollbar-track {
+    background-color: #F9F8FC;
+    /* Track color */
+}
+
+.fav-Website::-moz-scrollbar-thumb {
+    background-color: #FF9494;
+    /* Thumb color */
+    border-radius: 5px;
+    /* Border radius of the thumb */
+}
+
+.fav-Website::-moz-scrollbar-thumb:hover {
+    background-color: #FF9494;
+    /* Thumb color on hover */
+}
+
+
+.delete-button {
+    padding: 8px 15px;
+    background-color: #cc202e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #b3000d;
+}
+
+
+.fav-Website {
+    max-width: 700px;
+    min-height: 150px;
+    max-height: 150px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFD1D1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#addWebsite {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: #FF9494;
+    border: none;
+    font-size: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#addWebsite:hover {
+    background-color: #FF9494;
+    color: white;
+}
+
+.horizontalList {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 10px;
+    height: 60px;
+    /* Adjust the spacing between items as desired */
+}
+
+.website-image {
+    image-rendering: smooth;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.labels {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+}
+
+#websiteCard {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+}
+
+#websiteCard.show {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+body.blur::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+    z-index: 1;
+}
+
+.feedback {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    color: #FF9494;
+    text-decoration: none;
+}
+
+.feedback:hover {
+    color: rgb(170, 93, 106);
+}
+
+.feedback:active {
+    color: #FF9494;
+}
+
+
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

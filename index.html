@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tabify</title>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="card" id="cardElement">
+        <h3>Enter your name</h3>
+        <div><input type="text" name="username" id="userinput" /></div>
+        <div><button type="submit" id="usernamesubmit">Submit</button></div>
+      </div>
+      <div class="container">
+        <div id="greetings"></div>
+
+        <div class="add-todo">
+          <input type="text" id="newTodo" placeholder="Add a new task" />
+          <button id="addButton">Add</button>
+        </div>
+        <ul class="todo-list" id="todoList">
+          <!-- Existing tasks will be dynamically added here -->
+        </ul>
+      </div>
+      <br />
+      <div class="fav-Website" id="favWebsite">
+        <ul class="horizontalList" id="horizontal-list">
+          <button type="submit" id="addWebsite">+</button>
+        </ul>
+
+        <div class="card" id="websiteCard">
+          <h3>Add a Website</h3>
+          <input
+            type="text"
+            id="websiteInput"
+            placeholder="Enter Website URL"
+          />
+          <input type="text" id="websiteName" placeholder="Enter the name" />
+          <button id="addWebsiteButton">Add</button>
+        </div>
+      </div>
+      <div>
+        <a
+          class="feedback"
+          href="https://forms.gle/6JNtXk28YW5W1C5n8"
+          target="_blank"
+          >Feedback</a
+        >
+      </div>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>

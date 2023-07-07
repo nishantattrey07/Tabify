@@ -1,0 +1,27 @@
+{
+  "name": "Tabify",
+  "description": "Tabify is a productivity-enhancing browser extension designed to help you stay organized and focused throughout the day.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage", "scripting"],
+  "action": {
+    "default_icon": {
+      "16": "/images1/logo.png",
+      "32": "/images1/logo.png",
+      "48": "/images1/logo.png",
+      "128": "/images1/logo.png"
+    }
+  },
+  "icons": {
+    "16": "/images1/logo.png",
+    "32": "/images1/logo.png",
+    "48": "/images1/logo.png",
+    "128": "/images1/logo.png"
+  }
+}
